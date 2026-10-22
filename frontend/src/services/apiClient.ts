@@ -2,7 +2,7 @@ import axios, { AxiosError, AxiosInstance, InternalAxiosRequestConfig } from 'ax
 import { store } from '../store'
 import { logout } from '../store/slices/authSlice'
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api/v1'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://coursemangmentapp.onrender.com/api/v1'
 
 class ApiClient {
   private client: AxiosInstance
